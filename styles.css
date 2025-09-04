@@ -1,0 +1,8 @@
+:root { max-width: 72ch; margin: 0 auto; font: 16px/1.6 system-ui, sans-serif; }
+body { padding: 2rem; }
+header { display: flex; gap: 1rem; align-items: baseline; flex-wrap: wrap; }
+nav a { margin-right: 1rem; text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+main img { max-width: 100%; height: auto; }
+pre, code { background: #f6f8fa; padding: .25rem .5rem; border-radius: .25rem; }
+footer { margin-top: 3rem; color: #555; }

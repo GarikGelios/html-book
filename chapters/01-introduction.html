@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Introduction — My HTML Book</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header>
+    <h1>My HTML Book</h1>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="01-introduction.html">Introduction</a>
+      <a href="02-getting-started.html">Getting Started</a>
+      <a href="03-next-steps.html">Next Steps</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Introduction</h2>
+    <p>Welcome! This chapter introduces the book.</p>
+  </main>
+
+  <footer><p>© <span id="year"></span> Your Name</p></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

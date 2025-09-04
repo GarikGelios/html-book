@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My HTML Book</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>My HTML Book</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="chapters/01-introduction.html">Introduction</a>
+      <a href="chapters/02-getting-started.html">Getting Started</a>
+      <a href="chapters/03-next-steps.html">Next Steps</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Table of Contents</h2>
+    <ol>
+      <li><a href="chapters/01-introduction.html">Introduction</a></li>
+      <li><a href="chapters/02-getting-started.html">Getting Started</a></li>
+      <li><a href="chapters/03-next-steps.html">Next Steps</a></li>
+    </ol>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Your Name</p>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
