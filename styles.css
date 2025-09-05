@@ -6,3 +6,33 @@ nav a:hover { text-decoration: underline; }
 main img { max-width: 100%; height: auto; }
 pre, code { background: #f6f8fa; padding: .25rem .5rem; border-radius: .25rem; }
 footer { margin-top: 3rem; color: #555; }
+
+body {
+    counter-reset: h2counter;
+  }
+
+  h2 {
+    counter-increment: h2counter;
+    counter-reset: h3counter;
+  }
+  h2::before {
+    content: counter(h2counter) ". ";
+    font-weight: bold;
+  }
+
+  h3 {
+    counter-increment: h3counter;
+    counter-reset: h4counter;
+  }
+  h3::before {
+    content: counter(h2counter) "." counter(h3counter) " ";
+    font-weight: bold;
+  }
+
+  h4 {
+    counter-increment: h4counter;
+  }
+  h4::before {
+    content: counter(h2counter) "." counter(h3counter) "." counter(h4counter) " ";
+    font-weight: bold;
+  }

@@ -1,28 +1,60 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Introduction — My HTML Book</title>
+  <title>Introduction — HTML Book</title>
   <link rel="stylesheet" href="../styles.css" />
 </head>
+
 <body>
   <header>
-    <h1>My HTML Book</h1>
+    <h1>HTML Book</h1>
     <nav>
       <a href="../index.html">Home</a>
       <a href="01-introduction.html">Introduction</a>
-      <a href="02-getting-started.html">Getting Started</a>
+      <a href="02-business-analysis-key-concepts.html">Business Analysis Key Concepts</a>
       <a href="03-next-steps.html">Next Steps</a>
     </nav>
   </header>
 
   <main>
     <h2>Introduction</h2>
-    <p>Welcome! This chapter introduces the book.</p>
+    <p>A Guide to the Business Analysis Body of Knowledge® (BABOK® Guide) is the globally recognized standard for the
+      practice of business analysis. The BABOK® Guide describes business analysis knowledge areas, tasks, underlying
+      competencies, techniques and perspectives on how to approach business analysis.</p>
+    <h3>Purpose of the BABOK® Guide</h3>
+    <p>The primary purpose of the BABOK® Guide is to define the profession of business analysis and provide a set of
+      commonly accepted practices. It helps practitioners discuss and define the skills necessary to effectively perform
+      business analysis work. The BABOK® Guide also helps people who work with and employ business analysts to
+      understand the skills and knowledge they should expect from a skilled practitioner.</p>
+    <p>Business analysis is a broad profession in which business analysts might perform work for many different types of
+      initiatives across an enterprise. Practitioners may employ different competencies, knowledge, skills, terminology,
+      and attitudes that they use when performing business analysis tasks. The common framework for all perspectives,
+      describing business analysis tasks that are performed to properly analyze a change or evaluate the necessity for a
+      change. Tasks may vary in form, order, or importance for individual business analysts or for various initiatives.
+    </p>
+    <p>The six knowledge areas of the BABOK® Guide (Business Analysis Planning and Monitoring, Elicitation and
+      Collaboration, Requirements Life Cycle Management, Strategy Analysis, Requirements Analysis and Design Definition
+      (RADD), and Solution Evaluation) describe the practice of business analysis as it is applied within the boundaries
+      of a project or throughout enterprise evolution and continuous improvement. The following image shows how three of
+      the knowledge areas support the delivery of business value before, during, and after the life cycle of a project.
+    </p>
+    <figure>
+      <figcaption>
+        Figure 1.1.1: Business Analysis Beyond Projects
+      </figcaption>
+      <img src="../assets/figures/figure-1-1-1.svg"
+        alt="Diagram showing Business Analysis Beyond Projects with Project, Delivery, RADD, and their relations." />
+    </figure>
+
   </main>
 
-  <footer><p>© <span id="year"></span> Your Name</p></footer>
+  <footer>
+    <p>© <span id="year"></span> Your Name</p>
+  </footer>
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
+
 </html>
